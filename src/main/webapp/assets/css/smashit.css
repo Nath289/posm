@@ -1,9 +1,19 @@
 body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-  }
+}
 
-.logo {
+.navbar-inverse .navbar-inner {
+    background-image: linear-gradient(to bottom, #003d36, #002c25);
+}
 
+input.btn-success {
+    background-color: #005f58;
+    background-image: linear-gradient(to bottom, #006f66, #005f58);
+}
+
+input.btn-success:hover {
+    background-color: #00867d;
+    background-image: linear-gradient(to bottom, #006f66, #00867d);
 }
 
 .faq {
@@ -14,11 +24,4 @@ body {
 
 .faq > li > a {
     padding: 15px;
-}
-
-.navbar-inner {
-}
-
-.btn-success {
-    background-color: rgb(20, 74, 84);
 }
