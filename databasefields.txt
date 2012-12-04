@@ -1,0 +1,52 @@
+
+
+partner
+	name
+	contacts:
+		service desk
+		support team
+		esc 1, 2, 3, 4, ...
+		escalation times
+		BUS contact
+	
+	operating hours:
+		localtime
+			mon-fri
+			sat
+			son
+			public holiday exceptions
+		Australian time
+			...
+	location
+		country
+		address
+	BU service manager
+	indecent management targets (for each priority)
+		response
+		resolution
+	service desk targets (page 34)
+		...
+	
+
+app
+	name
+	support hours:
+		require support hours
+		current support hours
+		negotiated support hours
+		comments
+	available hours
+		notes	
+
+	
+contact
+	name
+	landline
+	mobile
+	email
+
+
+applistings
+	partnerID
+	appID
+
